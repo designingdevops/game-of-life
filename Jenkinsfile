@@ -19,7 +19,7 @@ pipeline {
             
           },
           "Parallel": {
-            sh 'sh "sleep 30"'
+            sh 'sleep 30'
             
           }
         )
