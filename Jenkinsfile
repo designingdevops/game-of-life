@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       label "docker"
-      image" maven-jdk-8"
+      image" maven:latest"
     }
   }
   stages {
